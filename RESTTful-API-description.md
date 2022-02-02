@@ -60,7 +60,9 @@ A really short version of an overview for the RESTful Web API could be:
 
 ---
 
-:pencil2: *Write your description here*
+:pencil2: We are going to implement a web API that enables users to create and view workout plans. The platform would allow the users to create workout sets, load workout sets, create moves for workouts, load moves, check their progress and check their history.
+
+The API exposes information about the users and ways to view, create, modify and delete workout plans. Workout plans consists of moves that can be selected from a list or created by the user.
 
 ---
 
@@ -89,7 +91,7 @@ This section is important because it outlines the concepts that you will later i
 
 ---
 
-:pencil2: *Write your text here and draw the diagram*
+:pencil2: The API permits users to create and view workout plans. The user profile can be viewed by enyone, and modified by the user. The workout plans can be viewed by anyone, and modified and deleted by the creator of the plan. The workout has a name and creator (User), and it consists of different moves. Moves have a name, and the workout can specify a duration or repetitions.
 
 ---
 
@@ -107,7 +109,10 @@ Describe at least two clients or services that could use your Web API. You must 
 
 ---
 
-:pencil2: *Write your text here*
+:pencil2: API uses:
+A typical user of the API would use it through a graphical user client that would send requests to the API. This user can be any human who wants to either plan their workouts or get new ideas for their workout. This client software would offer the ability to create the workout moves and workout plans.
+
+Another viable use-case of the API would be to create a software that monitors the popularity of certain moves creating a leaderboard of sorts.
 
 
 
@@ -129,7 +134,7 @@ The purpose of this task is to get more familiar with what an API is. This will 
 
 
 
-:pencil2: *Write your text here*
+:pencil2: The REST API at https://wger.de/en/software/api is very similar to our API. The wger Workout Manager app uses this API.
 
 ---
 
@@ -137,8 +142,6 @@ The purpose of this task is to get more familiar with what an API is. This will 
 ## Resources allocation
 |**Task** | **Student**|**Estimated time**|
 |:------: |:----------:|:----------------:|
-|||| 
-|||| 
-|||| 
-|||| 
-|||| 
+|Project planning|Eemil Hyväri|1h| 
+|Project planning|Antti Luukkonen|1h| 
+|Project planning|Oskar Byman|1h| 
