@@ -64,6 +64,8 @@ A really short version of an overview for the RESTful Web API could be:
 
 The API exposes information about the users and ways to view, create, modify and delete workout plans. Workout plans consists of moves that can be selected from a list or created by the user.
 
+![Screenshot](uploads/API%20chart.jpg)
+
 ---
 
 
