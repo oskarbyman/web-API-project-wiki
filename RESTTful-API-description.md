@@ -134,7 +134,7 @@ The purpose of this task is to get more familiar with what an API is. This will 
 
 
 
-:pencil2: The REST API at https://wger.de/en/software/api is very similar to our API. The wger Workout Manager app uses this API.
+:pencil2: The REST API at https://wger.de/en/software/api is very similar to our API. The wger Workout Manager app uses this API. The API publishes different endpoints for workouts, exercises, muscles, ingredients, meals, nutrition plans and more.
 
 ---
 
