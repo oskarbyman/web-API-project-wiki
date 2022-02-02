@@ -136,7 +136,7 @@ The purpose of this task is to get more familiar with what an API is. This will 
 
 
 
-:pencil2: The REST API at https://wger.de/en/software/api is very similar to our API. The wger Workout Manager app uses this API. The API publishes different endpoints for workouts, exercises, muscles, ingredients, meals, nutrition plans and more.
+:pencil2: The REST API at https://wger.de/en/software/api is very similar to our API. The wger Workout Manager app uses this API. The API publishes different endpoints for workouts, exercises, muscles, ingredients, meals, nutrition plans and more. The API is a REST API that supports hypermedia since it links it's resources to other resources. It allows the creation, and modification of the different resources mentioned previously. It supports user authentication with an API KEY which can be used to retrieve data pertaining to the user like the aforementioned workouts and meal plans.
 
 ---
 
@@ -144,6 +144,6 @@ The purpose of this task is to get more familiar with what an API is. This will 
 ## Resources allocation
 |**Task** | **Student**|**Estimated time**|
 |:------: |:----------:|:----------------:|
-|Project planning|Eemil Hyväri|1h| 
-|Project planning|Antti Luukkonen|1h| 
-|Project planning|Oskar Byman|1h| 
+|Project planning|Eemil Hyväri|1.5h| 
+|Project planning|Antti Luukkonen|1.5h| 
+|Project planning|Oskar Byman|1.5h| 
