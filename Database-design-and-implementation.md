@@ -99,9 +99,18 @@ Workout plan that contains a number of moves.
 |:------: |:-------:|:--------------:|:-------------:|:-----------------: |:--------:|
 |id|Integer|None|||Primary key| 
 |name|string(64)|None||not nullable||
-|creator_id|Integer|None|||User ID| 	
+|creator_id|Integer|None|Creator of the plan||User ID| 	
 |moves|Integer|None|Workout moves contained in the plan||Workout Move ID| 	
 
+Workout Move:
+A workout move with a description.
+|**Name** | **Type**|**Restrictions**|**Description**|**Characteristics** | **Links**|
+|:------: |:-------:|:--------------:|:-------------:|:-----------------: |:--------:|
+|id|Integer|None|||Primary key| 
+|name|string(64)|None||not nullable||
+|creator_id|Integer|None|Creator of the move||User ID| 	
+|description|string(64)|None||not nullable||	
+	
 
 :pencil2: *Do not forget to include a diagram presenting the relations*
 
