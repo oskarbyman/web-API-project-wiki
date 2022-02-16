@@ -78,14 +78,14 @@ For this section you can use a visual tool to generate a diagram. Be sure that t
 ---
 
 :pencil2: *The table can have the following structure*
-
+'''
 |**Name** | **Type**|**Restrictions**|**Description**|**Characteristics** | **Links**|
 |:------: |:-------:|:--------------:|:-------------:|:-----------------: |:--------:|
 |Name of the attribute|Attribute type|Values that the type can take|Description of the attribute|Uniquenes, default...| keys and foreign keys|
 ||||||| 
 ||||||| 
 ||||||| 
-	
+'''	
 User:
 Contains data of the user.
 |**Name** | **Type**|**Restrictions**|**Description**|**Characteristics** | **Links**|
