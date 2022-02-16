@@ -88,6 +88,8 @@ For this section you can use a visual tool to generate a diagram. Be sure that t
 
 :pencil2: *Do not forget to include a diagram presenting the relations*
 
+![image](https://user-images.githubusercontent.com/36500268/154276016-fbec439b-ed24-4f6f-a214-0dcd17a52141.png)
+	
 ---
 
 ## Database implementation
