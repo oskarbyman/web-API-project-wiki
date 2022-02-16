@@ -88,7 +88,7 @@ For this section you can use a visual tool to generate a diagram. Be sure that t
 
 :pencil2: *Do not forget to include a diagram presenting the relations*
 
-![image](https://user-images.githubusercontent.com/36500268/154276016-fbec439b-ed24-4f6f-a214-0dcd17a52141.png)
+![image](https://user-images.githubusercontent.com/36500268/154277289-77c47af6-5b41-4cd3-88e2-31e303657a3b.png)
 	
 ---
 
