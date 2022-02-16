@@ -79,21 +79,29 @@ For this section you can use a visual tool to generate a diagram. Be sure that t
 
 :pencil2: *The table can have the following structure*
 
+|**Name** | **Type**|**Restrictions**|**Description**|**Characteristics** | **Links**|
+|:------: |:-------:|:--------------:|:-------------:|:-----------------: |:--------:|
+|Name of the attribute|Attribute type|Values that the type can take|Description of the attribute|Uniquenes, default...| keys and foreign keys|
+||||||| 
+||||||| 
+||||||| 
+	
 User:
 Contains data of the user.
 |**Name** | **Type**|**Restrictions**|**Description**|**Characteristics** | **Links**|
 |:------: |:-------:|:--------------:|:-------------:|:-----------------: |:--------:|
-|Name of the attribute|Attribute type|Values that the type can take|Description of the attribute|Uniquenes, default...| keys and foreign keys|
-|id|integer|None|||Primary key| 
+|id|Integer|None|||Primary key| 
 |username|string(64)|None||Unique, not nullable|| 	
 	
-	
+Workout Plan:
+Workout plan that contains a number of moves.
 |**Name** | **Type**|**Restrictions**|**Description**|**Characteristics** | **Links**|
 |:------: |:-------:|:--------------:|:-------------:|:-----------------: |:--------:|
-|Name of the attribute|Attribute type|Values that the type can take|Description of the attribute|Uniquenes, default...| keys and foreign keys|
-||||||| 
-||||||| 
-||||||| 
+|id|Integer|None|||Primary key| 
+|name|string(64)|None||not nullable||
+|creator_id|Integer|None|||User ID| 	
+|moves|Integer|None|Workout moves contained in the plan||Workout Move ID| 	
+
 
 :pencil2: *Do not forget to include a diagram presenting the relations*
 
