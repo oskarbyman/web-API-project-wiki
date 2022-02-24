@@ -97,8 +97,18 @@ Workout plan that contains a number of moves.
 |id|Integer|None|||Primary key| 
 |name|string(64)|None||not nullable||
 |creator_id|Integer|None|Creator of the plan||User ID| 	
-|moves|Integer|None|Workout moves contained in the plan||Workout Move ID| 	
+|workout_moves|Integer|None|MoveList of the workout plan||MoveList ID| 	
 
+MoveList:
+A list of the workout moves and the amount of repetitions
+|**Name** | **Type**|**Restrictions**|**Description**|**Characteristics** | **Links**|
+|:------: |:-------:|:--------------:|:-------------:|:-----------------: |:--------:|
+|id|Integer|None|||Primary key| 
+|position|Integer|None||not nullable||
+|plan_id|Integer|None|Plan the move list is a part of||User ID| 	
+|move_id|Integer|None|The workout move in the list|not nullable||	
+|repetitions|Integer|None|Amount of move repetitions in the plan for the move|not nullable||	
+	
 Workout Move:
 A workout move with a description.
 |**Name** | **Type**|**Restrictions**|**Description**|**Characteristics** | **Links**|
@@ -111,7 +121,7 @@ A workout move with a description.
 
 :pencil2: *Do not forget to include a diagram presenting the relations*
 
-![image](https://user-images.githubusercontent.com/36500268/154277289-77c47af6-5b41-4cd3-88e2-31e303657a3b.png)
+![image](https://user-images.githubusercontent.com/36500268/155485666-6d05b58c-4a83-4f50-aa1b-000d75c8305e.png)
 	
 ---
 
