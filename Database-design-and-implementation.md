@@ -163,7 +163,7 @@ A workout move with a description.
 ## Resources allocation 
 |**Task** | **Student**|**Estimated time**|
 |:------: |:----------:|:----------------:|
-|Desgin + Implementation|Eemil Hyväri|5hrs| 
+|Desgin + Implementation|Eemil Hyväri|6hrs| 
 |Design + Update Wiki|Antti Luukkonen|3hrs| 
 |Design|Oskar Byman|2hrs| 
 |||| 
