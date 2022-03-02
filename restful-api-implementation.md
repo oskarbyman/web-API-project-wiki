@@ -149,7 +149,10 @@ Explain briefly how your API meets REST principles. Focus specially in these thr
 
 ---
 
-:pencil2: *Write your text here*
+:pencil2: 
+Addressability: All the resources in the API are addressable via a URI. 
+Uniform interface: The API uses the standard fixed HTTP methods. For example:
+
 
 ---
 
