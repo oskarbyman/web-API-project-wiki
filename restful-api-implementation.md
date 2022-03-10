@@ -161,8 +161,9 @@ Explain briefly how your API meets REST principles. Focus specially in these thr
 ---
 
 :pencil2: 
-Addressability: All the resources in the API are addressable via a URI. 
-Uniform interface: The API uses the standard fixed HTTP methods. For example:
+Addressability: All the resources in the API are addressable via an URI. 
+Uniform interface: The API uses the standard fixed HTTP methods. For example: The user specific items can be accessed with GET, PUT or DELETE methods
+Statelessness: All requests happen in isolation and don't rely on previous requests.
 
 
 ---
@@ -192,7 +193,7 @@ Write a short rationale of how URL converters are used, including your thoughts 
 
 ---
 
-:pencil2: *Write your text here*
+No URL converters were used since only one of the parameters required converting to int. This however cascaded as many model.query code lines which bloat the code visually. This is a improvement that could be done with a refactor if there is time before the final deadline.
 
 ---
 
@@ -209,7 +210,11 @@ Write a short description of your JSON schemas, including key decision making fo
 
 ---
 
-:pencil2: *Write your text here*
+Schema validation is done in every POST and PUT method. The following schemas were implemented
+user_schema, which requires that the request contains only the username
+move_schema, which requires that the request contains a name and a description for the move. The user is parsed from the request URI
+move_list_item_schema, which requires that the request contains a move name which will be added to the workout move list. Has optional parameters for repetitions and the position in the workout order. The position is assigned automatically to the last position of the workout unless specified.
+workout_plan_schema, which requires that the request contains a name for the workout. Rest of the needed information is parsed from the request URI
 
 ---
 
@@ -225,8 +230,7 @@ Explain your caching decisions here. Include an explanation for every GET method
 </details>
 
 ---
-
-:pencil2: *Write your text here*
+No caching has been implemented yet.
 
 ---
 
@@ -243,7 +247,7 @@ Explain your authentication scheme here. Describe the authentication requirement
 
 ---
 
-:pencil2: *Write your text here*
+No authentication has been implemented yet
 
 ---
 
