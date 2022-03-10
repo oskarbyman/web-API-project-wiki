@@ -56,9 +56,20 @@ A list of all implemented resources. Consider that you do not need to implement 
 
 |  Resource name       | Resource url | Resource description | Supported Methods    | Implemented |
 |:-------------------: |:------------:|:--------------------:|:--------------------:|:-----------:|
-|Resource Name 1       |              |                      |                      |             |
-|Resource Name 2       |              |                      |                      |             |
-
+|users collection       |/api/users                                                 | GET, POST        | Yes |
+|user item              |/api/users/{user}                                          | GET, PUT, DELETE | Yes |
+|moves by user          |/api/users/{user}/moves                                    | GET, POST        | Yes |
+|user's move            |/api/users/{user}/moves/{move}                             | GET, PUT, DELETE | Yes |
+|workouts by user       |/api/users/{user}/workouts                                 | GET, POST        | Yes |
+|user's workout         |/api/users/{user}/workouts/{workout}                       | GET, PUT, DELETE | Yes |
+|moves in user's workout|/api/users/{user}/workouts/{workout}/moves                 | GET, POST        | Yes |
+|move in user's workout |/api/users/{user}/workouts/{workout}/moves/{move_list_item}| GET, PUT, DELETE | Yes |
+|moves collection       |/api/moves                                                 | GET, POST        | Yes |
+|move item              |/api/moves/{move}                                          | GET, PUT, DELETE | Yes |
+|workouts collection    |/api/workouts/                                             | GET              | Yes |
+|workout item           |/api/workouts/{workout}                                    | GET              | Yes |
+|moves in a workout     |/api/workouts/{workout}/moves                              | GET              | Yes |
+|a move in a workout    |/api/workouts/{workout}/moves/{move_list_item}             | GET              | Yes |
 ---
 
 ## Basic implementation
