@@ -160,9 +160,11 @@ Explain briefly how your API meets REST principles. Focus specially in these thr
 
 ---
 
-:pencil2: 
+
 Addressability: All the resources in the API are addressable via an URI. 
+
 Uniform interface: The API uses the standard fixed HTTP methods. For example: The user specific items can be accessed with GET, PUT or DELETE methods
+
 Statelessness: All requests happen in isolation and don't rely on previous requests.
 
 
