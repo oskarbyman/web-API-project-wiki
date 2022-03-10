@@ -250,9 +250,9 @@ Explain your authentication scheme here. Describe the authentication requirement
 ## Resources allocation
 |**Task** | **Student**|**Estimated time**|
 |:------: |:----------:|:----------------:|
-|||| 
-|||| 
-|||| 
+|Design, Implementation|Oskar Byman|10hrs| 
+|Design, Implementation, Testing|Eemil Hyväri|| 
+|Design|Antti Luukkonen|| 
 |||| 
 
 
