@@ -63,7 +63,7 @@ A list of all implemented resources. Consider that you do not need to implement 
 |workouts by user|/api/users/{user}/workouts|All workouts created by a user|GET, POST|Yes|
 |user's workout|/api/users/{user}/workouts/{workout}|A workout created by a user|GET, PUT, DELETE|Yes|
 |moves in user's workout|/api/users/{user}/workouts/{workout}/moves|Moves wrapped in a users workout|GET, POST|Yes|
-|move in user's workout|/api/users/{user}/workouts/{workout}/moves/{position}A move in a users workout based on its position|GET, PUT, DELETE|Yes|
+|move in user's workout|/api/users/{user}/workouts/{workout}/moves/{position}|A move in a users workout based on its position|GET, PUT, DELETE|Yes|
 |moves collection|/api/moves|All moves in the database|GET, POST|Yes|
 |move item|/api/moves/{move}|A move in the database|GET, PUT, DELETE |Yes|
 |workouts collection|/api/workouts/|All workouts in the database|GET|Yes|
