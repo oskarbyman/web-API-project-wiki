@@ -257,7 +257,7 @@ No authentication has been implemented yet
 |**Task** | **Student**|**Estimated time**|
 |:------: |:----------:|:----------------:|
 |Design, Implementation|Oskar Byman|12h| 
-|Design, Implementation, Testing|Eemil Hyväri|5h| 
+|Design, Implementation, Testing|Eemil Hyväri|6h| 
 |Design|Antti Luukkonen|3h| 
 |||| 
 
