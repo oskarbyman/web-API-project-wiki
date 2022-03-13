@@ -256,9 +256,9 @@ No authentication has been implemented yet
 ## Resources allocation
 |**Task** | **Student**|**Estimated time**|
 |:------: |:----------:|:----------------:|
-|Design, Implementation|Oskar Byman|10hrs| 
-|Design, Implementation, Testing|Eemil Hyväri|| 
-|Design|Antti Luukkonen|| 
+|Design, Implementation|Oskar Byman|12h| 
+|Design, Implementation, Testing|Eemil Hyväri|5h| 
+|Design|Antti Luukkonen|3h| 
 |||| 
 
 
